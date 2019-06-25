@@ -11,6 +11,7 @@
     <modules>
         <module>java-demo</module>
         <module>scala-demo</module>
+        <module>metamodel-demo</module>
     </modules>
     <dependencyManagement>
         <dependencies>
