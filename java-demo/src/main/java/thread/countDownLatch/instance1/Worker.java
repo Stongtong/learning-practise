@@ -26,7 +26,7 @@ public class Worker implements Runnable {
         try {
             System.out.println("Worker " + name + " start work");
             doWork(name);
-            System.out.println("Worker " + name + " work finish !!!");
+            System.out.println("Worker " + name + " work finish !!!" + doneSignal.getCount());
         } catch (InterruptedException e) {
             e.printStackTrace();
         } finally {

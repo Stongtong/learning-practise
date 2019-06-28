@@ -20,6 +20,7 @@ public class CountDownLatchDemo {
             service.execute(new Worker(signal, "wang" + i));
         }
         service.execute(new Boss(signal, "tong"));
+        // 在减成0以后，如果再进行任务数的提交，就没有1等多的效果了，这个也很好了解,没有cyclicbarrier中的reset和自动reset
         service.shutdown();
     }
 }
