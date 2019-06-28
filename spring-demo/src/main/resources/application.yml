@@ -1,0 +1,17 @@
+server:
+  port: 8801
+
+
+#person:
+#  name: zhangsan
+#  age: 18
+#  sex: true
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: 12}
+#  lists:
+#    - lisi
+#    - zhangsan
+#    - wangwu
+#  dog:
+#    name: wangwang
+#    age: 5
