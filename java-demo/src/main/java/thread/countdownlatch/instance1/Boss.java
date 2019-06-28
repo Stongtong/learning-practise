@@ -1,4 +1,4 @@
-package thread.countDownLatch.instance1;
+package thread.countdownlatch.instance1;
 
 import java.util.concurrent.CountDownLatch;
 
